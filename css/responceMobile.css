@@ -271,6 +271,9 @@
     .carousel-slide {
         min-width: 100%;
     }
+.pawn, .knight{
+    display: none;
+}
 
 
 }
