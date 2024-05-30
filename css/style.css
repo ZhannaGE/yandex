@@ -57,6 +57,55 @@ body {
 .header-container {
     background: url('../assets/image/main.png') no-repeat center center;
     background-size: contain;
+    position: relative;
+}
+
+.chess-piece {
+    position: absolute;
+    top: -150px;
+    animation:  drop 3s ease-in-out forwards, shake 0.5s 4.5s 1;
+}
+
+.chess-pieces{
+    position: absolute;
+    top: -150px;
+    animation:  drops 3s ease-in-out forwards, shake 0.5s 4.5s 1;
+}
+
+.knight {
+    width: 253px;
+    height: 343px;
+    background-image: url('../assets/image/horse-small.png'); /* Путь к изображению коня */
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 700px;
+}
+
+.pawn {
+    width: 100px;
+    height: 200px;
+    background-image: url('../assets/image/Mask group.png'); /* Путь к изображению пешки */
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 1100px; /* Позиция на доске */
+}
+
+@keyframes drop {
+    to {
+        top: calc(100vh - 500px); /* Конечное положение на доске */
+    }
+}
+@keyframes drops {
+    to {
+        top: calc(100vh - 450px); /* Конечное положение на доске */
+    }
+}
+
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+    20%, 40%, 60%, 80% { transform: translateX(10px); }
 }
 
 header {
