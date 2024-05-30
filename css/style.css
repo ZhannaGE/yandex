@@ -92,7 +92,7 @@ body {
 
 @keyframes drop {
     to {
-        top: calc(100vh - 500px); /* Конечное положение на доске */
+        top: calc(100vh - 550px); /* Конечное положение на доске */
     }
 }
 @keyframes drops {
