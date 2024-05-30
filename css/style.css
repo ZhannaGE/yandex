@@ -519,3 +519,15 @@ footer p {
 .paginations__container{
     display: none;
 }
+@media (min-width: 1500px) {
+    @keyframes drop {
+        to {
+            top: calc(100vh - 950px); /* Конечное положение на доске */
+        }
+    }
+    @keyframes drops {
+        to {
+            top: calc(100vh - 850px); /* Конечное положение на доске */
+        }
+    }
+}
