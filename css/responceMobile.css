@@ -1,0 +1,276 @@
+@media (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .font36 {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .wrapper {
+        width: 100%;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .container {
+        padding: 16px 16px 0 16px;
+        width: 100%;
+    }
+
+    .header-container {
+        background: url('../assets/image/main screen.png') no-repeat center center;
+        background-size: cover;
+    }
+
+    .flex h2 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .flex-text {
+        gap: 24px;
+    }
+
+    .font36:nth-child(1) {
+        order: 1;
+    }
+
+    .font36:nth-child(2) {
+        order: 3;
+    }
+
+    .flex-text img {
+        order: 2;
+    }
+
+    .marquee, .support-container, .stages {
+        padding: 0 20px;
+    }
+
+    main {
+        text-align: center;
+        width: 100%;
+        padding: 38px 0 135px 1px;
+    }
+    main p{
+        margin: 20px 0 20px 0;
+        text-align: left;
+        width: 99.3%;
+    }
+
+    .marquee-content {
+        overflow-x: scroll;
+        padding: 0 10px;
+    }
+
+    .buttons {
+        display: block;
+    }
+
+    .buttons button {
+        margin-bottom: 40px;
+
+    }
+
+
+    button .more-info {
+        background-color: rgba(255, 255, 255, 0.84);
+        border: none;
+        width: 332px;
+        display: block;
+        font-size: 16px;
+    }
+
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .plane-image {
+        top: 256px;
+        width: 80%;
+        right: 20px;
+        left: 20px;
+    }
+
+    .group {
+
+        gap: 0;
+        width: 100%;
+        min-height: 100%;
+    }
+
+    .stages-grid {
+        padding-top: 188px;
+        width: 100%;
+        display: flex;;
+        position: relative;
+        /* flex-direction: column; */
+        overflow: scroll;
+    }
+
+    .card {
+        min-width: 100%;
+        padding-top: 68px;
+        padding-bottom: 0;
+
+    }
+
+    .stages {
+        padding-bottom: 64px;
+    }
+
+    .group .card {
+        height: 50%;
+    }
+
+    .flex h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .flex img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left, .right {
+        width: 100%;
+        margin: 0;
+    }
+
+    .right {
+        margin-top: 20px;
+    }
+
+    .styled-table {
+        font-size: 14px;
+        min-width: 0;
+    }
+
+    .styled-table td {
+        padding: 8px;
+    }
+
+    td {
+        border-bottom: none;
+    }
+
+    .note {
+        font-size: 18px;
+        margin-bottom: 108px;
+        padding-top: 0;
+    }
+
+    .image1 {
+        height: 420px;
+    }
+
+    .stages-header h2 {
+        font-size: 36px;
+        max-width: 335px;
+    }
+
+    .stages-header {
+        padding: 0;
+    }
+
+    .paginations__container {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 28px;
+    }
+
+    .paginations__btn {
+        border-radius: 24px;
+        width: 36px;
+        height: 36px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .prevGrid {
+        background-color: #31313133;
+        background-image: url(../assets/image/vector-l.svg);
+    }
+
+    .pagination {
+        display: flex;
+        gap: 6px;
+
+    }
+
+    .pagination__item {
+        width: 10px;
+        border-radius: 50%;
+        height: 10px;
+        background-color: #D9D9D9;
+    }
+
+    .nextGrid {
+        background-color: #313131;
+        background-image: url(../assets/image/vector-r.svg);
+    }
+
+    .active {
+        background-color: #313131;
+    }
+
+    .tournament-content {
+        flex-wrap: wrap;
+        margin-bottom: 34px;
+    }
+
+    .tournament-title, .tournament-info-title {
+        display: contents;
+        font-size: 28px;
+        line-height: 37.8px;
+        padding-top: 0px;
+        margin-bottom: 24px;
+    }
+
+    .tournament-title__mobile {
+        margin-bottom: 24px;
+    }
+
+    .tournament-img-container {
+        margin-bottom: 25px;
+        order: 1;
+    }
+
+    .tournament-title__offset-element {
+        order: 2;
+    }
+    .carousel__action{
+        right: 112px;
+        top: 635px;
+    }
+.participants h2{
+    font-size: 36px;
+}
+.support{
+    width: 333px;
+    margin-bottom: -24px;
+    font-size: 15px;
+
+}
+    .carousel-slide {
+        min-width: 100%;
+    }
+
+
+}
